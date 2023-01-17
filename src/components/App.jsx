@@ -1,11 +1,12 @@
-import { Statistics } from './Statistics/Statistics.jsx'
-// import data from './FilesJSON/data.json'
+import React from 'react';
 
-
-export const App = () => {
-  return (<div>
-<Statistics />
-  </div> 
-  )
+class App extends React.Component {
+  render() {
+    return (
+      <>
+      </>
+    )
+  }
 };
 
+export default App;
